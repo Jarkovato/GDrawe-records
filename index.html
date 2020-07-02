@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>GDrawe records студия звукозаписи</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="sass/style.css">
+	<!-- slyder styles -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="header">
+				<div class="header-logo">
+					<img src="img/logo.png" alt="Логотип" class="header-logo__image">
+				</div>
+				<div class="header-menu" id="header-menu">
+					<button type="button" class="header-menu__btn">
+						<img src="img/header-menu.png" alt="Меню">
+					</button>
+				</div>
+				<div class="header-indent">Пн. - Пт. с 10:00 до 20:00</div>
+				<div class="header-contacts">
+					<a href="#" class="header-contacts__socials"><img src="img/you.png" alt=""></a>
+					<a href="#" class="header-contacts__socials"><img src="img/vk.png" alt=""></a>
+				</div>
+				<div class="header-contacts__text">
+					<a href="tel: +79165555555" class="header-contacts__phone">8 ( 916 ) 555 - 55 -55</a>
+					<a href="mailto: gdrecords@yandex.ru"class="header-contacts__mail">gdrecords@yandex.ru</a>
+				</div>
+					<button type="button" class="btn header-contacts__btn popup-btn" id="popup-btn">Заказать звонок</button>
+			</div>
+		</div>		
+	</header>
+	<nav id="nav">
+		<div class="container">
+			<ul class="navigation">
+				<li class="navigation__item"><a href="#about">О нас</a></li>
+				<li class="navigation__item"><a href="#service">Услуги</a></li>
+				<li class="navigation__item"><a href="#event">Акции</a></li>
+				<li class="navigation__item"><a href="#soft">Оборудование</a></li>
+				<li class="navigation__item"><a href="#portfolio">Портфолио</a></li>
+				<li class="navigation__item"><a href="#feedback">Отзывы</a></li>
+				<li class="navigation__item"><a href="#contacts">Контакты</a></li>
+			</ul>
+		</div>
+	</nav>
+	<main id="about">
+		<div class="container">
+			<div class="main-content">
+				<div class="main-content__title wow flipInX">
+					<h1>GDrawe Records студия звукозаписи Чехов </h1>
+					<span>Запись и сведение трека<br>от <big>2000</big> рублей</span>
+				</div>
+				<form action="mail.php" method="POST" class="form">
+					<div class="form-title">Обратная связь</div>
+					<label for="name" class="form-label">Ваше имя</label>
+					<input type="text" name="user_name" class="form-input">
+					<label for="number" class="form-label" placeholder="+7 (XXX) XX-XX-XX">Номер телефона</label>
+					<input type="text" name="user_phone" class="form-input">
+					<button type="button" class="form-btn btn">Оставить заявку</button>
+				</form>
+			</div>
+		</div>
+	</main>
+	<section class="service-present" id="service">
+		<div class="container">
+			<div class="service wow fadeInUp">
+				<div class="service-title section-title">Услуги</div>
+				<div class="service-content-box">
+					<div class="service-content">
+						<img src="img/1.png" alt="Вокал" class="service-content__image">
+						<div class="service-content__title">Вокал</div>
+						<span class="service-content__txt">Запись вокала для песни или голоса диктора от 500 руб/час.<br>
+						Сведение от 1500 руб. </span>
+					</div>
+					<div class="service-content">
+						<img src="img/2.png" alt="Аранжировка" class="service-content__image">
+						<div class="service-content__title">Аранжировка</div>
+						<span class="service-content__txt">Минусовка в интересующем вас жанре от 5000 рублей. <br>
+						Аранжировка от 10000 руб.						
+						</span>
+					</div>
+					<div class="service-content">
+						<img src="img/3.png" alt="Звукорежиссура" class="service-content__image">
+						<div class="service-content__title">Звукорежиссура</div>
+						<span class="service-content__txt">Выезд нашего специалиста на  мероприятие для настройки звука. <br>
+					 	От 3000 руб. за мероприятие.</span>
+					</div>
+					<div class="service-content">
+						<img src="img/4.png" alt="Продюссирование" class="service-content__image">
+						<div class="service-content__title">Продюссирование</div>
+						<span class="service-content__txt">Подберем оптимальное звучание, напишем текст и музыку.
+						Готовая песня от 5000 руб.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="event-present" id="event">
+		<div class="container">
+			<div class="container">
+				<div class="event">
+					<div class="event-title wow tada">Акции</div>
+					<div class="event-subtitle"><big>- 20% </big><span>на запись и сведение</span></div>
+					<div class="event-subtitle"><big>- 10% </big><span>на эксклюзивный минус</span></div>
+					<div class="event-subtitle"><big>- 5% </big><span>на выезд звукорежиссера</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="soft-present" id="soft">
+		<div class="container">
+			<div class="soft-title section-title">Оборудование</div>
+				<div class="soft">
+					<div class="soft-content wow bounceInLeft">						
+						<div class="soft-content__title">Софт</div>
+							<div class="soft-content__text">
+							<p><span>Sequencer:</span> Ableton Live 10 Suite</p>
+							<p><span>Sequencer:</span> FL Studio Producer Edition v20</p>
+							<p><span>Additional:</span> Serato DJ PRO (Full pack)</p>
+							<p><span>Plugins:</span> Ozone 7, Ozone 9 + Imager</p>
+							<p>Fab Filter PRO, Melodyne,</p>
+							<p>TAL-Reverb, Antares 9,</p>
+							<p>Fire Master and others</p>
+							</div>
+					</div>
+				<div class="soft-content wow bounceInRight">
+					<div class="soft-content__title">Железо</div>
+						<div class="soft-content__text">
+						<p><span>Additional equipment:</span> Pioner Dj DDJ-SB2</p>
+						<p><span>Processor:</span> Intel Core I7</p>
+						<p><span>Mixer:</span> Yamaha MW12</p>
+						<p><span>Monitors:</span> Rokit KRK 6 G3</p>
+						<p><span>Microphone:</span> Rode NT 2000</p>
+						<p><span>Headphones:</span> Sennheiser HD650,</p> 
+						<p>Pioneer HDJ1000</p>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio-present" id="portfolio">
+		<div class="container">
+			<div class="portfolio">
+				<div class="portfolio-title section-title">Портфолио</div>
+			</div>
+			<div class="portfolio-content">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0xgMoNgiUNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<section class="feedback-present" id="feedback">
+		<div class="container">			
+			<div class="feedback">
+				<div class="feedback-title section-title">Отзывы</div>
+					<div class="feedback-slider">
+						<div class="feedback-content">
+						<p>Записываю вокал у ребят достаточно давно, качеством звука доволен, по времени делают всё оперативно! Большой респект команде GDrawe studio!</p>
+						<big>Кисель</big>
+						<span>жанр: Rap</span>
+						</div>
+						<div class="feedback-content">
+						<p>Записываю вокал у ребят достаточно давно, качеством звука доволен, по времени делают всё оперативно! Большой респект команде GDrawe studio!</p>
+						<big>Gorsh</big>
+						<span>жанр: Rap</span>
+						</div>
+						<div class="feedback-content">
+						<p>Постоянно обращаюсь к GD за помощью в сведении треков и записи вокала, железо и софт на высоком уровне, всем рекомендую.</p>
+						<big>Ante</big>
+						<span>жанр: Techno</span>
+						</div>
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</section>
+	<section class="contacts-present" id="contacts">
+		<div class="container">
+			<div class="section-title contacts-title">Контакты</div>
+			<div class="contacts">
+				<div class="contacts-content">
+					<div class="contacts-content__item">
+						<span>Телефон</span>
+						<p>8 (916) 555 - 55 - 55</p>
+					</div>
+					<div class="contacts-content__item">
+						<span>Почта</span>
+						<p>gdrecords@yandex.ru</p>
+					</div>
+					<div class="contacts-content__item">
+						<span>Адрес</span>
+						<p>г.Чехов ул. Весенняя 20</p>
+					</div>
+					<div class="contacts-content__item">
+						<span>График</span>
+						<p>Пн. - Пт. с 10:00 до 20:00</p>
+					</div>
+					<button type="button" class="contacts-content__btn btn popup-btn">Заказать звонок</button>
+				</div>
+				<div class="contacts-map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Affddd958231d298229bec7dee4835e6c2646fb02990025fa6b7580592610391e&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<span>
+			© GDrawe records 2020, все права защищены
+		</span>
+		<p>developered by WebTab studio</p>
+	</footer>
+	<div class="overlay" id="overlay">
+		<div class="popup">			
+			<form action="mail.php" method="POST" class="form popup-form">
+				<div class="popup-close" id="popup-close">&times;</div>
+				<div class="form-title">Обратная связь</div>
+				<label for="name" class="form-label">Ваше имя</label>
+				<input type="text" name="user_name" class="form-input">
+				<label for="number" class="form-label">Номер телефона</label>
+				<input type="text" name="user_phone" class="form-input">
+				<button type="button" class="form-btn btn">Оставить заявку</button>
+			</form>
+		</div>
+	</div>
+	<!-- slider -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.feedback-slider').slick({
+			arrows: true
+		});
+	});
+	</script>
+	<!-- animate -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+		new WOW().init(); 
+	</script>
+	<!-- popup and modal menu -->
+	<script src='js/script.js'></script>
+</body>
+</html>

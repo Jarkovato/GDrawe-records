@@ -1,0 +1,35 @@
+.event-present
+	background: #000 url("../img/vawe.jpg") center center no-repeat
+	background-size: cover
+	position: relative
+	z-index: 1
+	padding-bottom: 150px
+	&::before
+		z-index: -1 
+		content: ''
+		display: block
+		position: absolute
+		right: 0 
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0, 0, 0, 0.7)
+.event
+	height: 100%
+	display: flex
+	justify-content: center
+	flex-direction: column
+	align-items: center
+	text-align: center
+	&-title
+		font-size: 4em
+		@include orange-text
+		padding-top: 75px
+		font-weight: 700
+	&-subtitle
+		font-size: 3em
+		margin-top: 15px
+		big
+			@include orange-text
+			font-weight: 700
+
